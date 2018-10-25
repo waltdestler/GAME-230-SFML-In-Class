@@ -33,7 +33,7 @@ int main()
 
 	font.loadFromFile("ITCBLKAD.TTF");
 
-	shape.setSize(Vector2f(600, 200));
+	shape.setSize(Vector2f(200, 200));
 	shape.setPosition(100, 100);
 	//shape.setFillColor(Color::Red);
 	shape.setTexture(&tex);
