@@ -31,7 +31,7 @@ int main()
 	buf.loadFromFile("pistol.wav");
 	sound.setBuffer(buf);
 
-	font.loadFromFile("ITCBLKAD.TTF");
+	font.loadFromFile("font.ttf");
 
 	shape.setSize(Vector2f(200, 200));
 	shape.setPosition(100, 100);
